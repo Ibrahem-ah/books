@@ -16,11 +16,13 @@
 **3- after that we will install all the packages in requirements.txt file** 
 
 	(env) pip install -r requirements.txt
+	
+**4- Change the SQLALCHEMY_DATABASE_URL in database.py**
 
-**4- Start the webserver**
+	"postgresql://<username>:<password>@localhost/<database_name>"
+
+**5- Start the webserver**
 
 	(env) uvicorn app.main:app --reload
 	
-**5- Change the SQLALCHEMY_DATABASE_URL in database.py**
 
-	"postgresql://<username>:<password>@localhost/<database_name>"
