@@ -13,13 +13,14 @@
 	.\env\Scripts\activate
 	
 	
-**3- after that we will install all the packages that i have use by running this command** 
+**3- after that we will install all the packages in requirements.txt file** 
 
 	(env) pip install -r requirements.txt
 
 **4- Start the webserver**
 
 	(env) uvicorn app.main:app --reload
-**4- Change the SQLALCHEMY_DATABASE_URL in database.py **
+	
+**5- Change the SQLALCHEMY_DATABASE_URL in database.py**
 
 	"postgresql://<username>:<password>@localhost/<database_name>"
