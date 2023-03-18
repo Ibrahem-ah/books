@@ -20,3 +20,6 @@
 **4- Start the webserver**
 
 	(env) uvicorn app.main:app --reload
+**4- Change the SQLALCHEMY_DATABASE_URL in database.py **
+
+	"postgresql://<username>:<password>@localhost/<database_name>"
