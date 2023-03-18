@@ -2,9 +2,6 @@
  
 ### Open CMD and install
 
-**1-Install virtualenv**
-
-	pip install virtualenv
 
 **1- Go to the project folder to create our virtual environment** 
 
@@ -20,6 +17,6 @@
 
 	(env) pip install -r requirements.txt
 
-**5- Start the webserver**
+**4- Start the webserver**
 
 	(env) uvicorn app.main:app --reload
